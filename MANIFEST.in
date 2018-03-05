@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include container_management *.css
+recursive-include container_management *.csv
+recursive-include container_management *.html
+recursive-include container_management *.ico
+recursive-include container_management *.js
+recursive-include container_management *.json
+recursive-include container_management *.md
+recursive-include container_management *.png
+recursive-include container_management *.py
+recursive-include container_management *.svg
+recursive-include container_management *.txt
+recursive-exclude container_management *.pyc
