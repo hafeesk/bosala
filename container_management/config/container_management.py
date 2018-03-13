@@ -21,6 +21,11 @@ def get_data():
                                         "name": "Contract",
                                         "description": _("Container Contract.")
                                 },
+                                {
+                                        "type": "doctype",
+                                        "name": "Auto Invoicing",
+                                        "description": _("Invoice from Container")
+                                },
 
 			]
 		},
@@ -47,6 +52,12 @@ def get_data():
 					"name": "Customer",
 					"description": _("Customer database."),
 				},
+				{
+                                        "type": "doctype",
+                                        "name": "Container No",
+                                        "description": _("Container Details."),
+                                },
+
 			]
 		}
 	]
